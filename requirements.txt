@@ -1,0 +1,6 @@
+pandas
+ollama
+pydantic
+playwright
+pywin32; sys_platform == "win32"
+notebook
