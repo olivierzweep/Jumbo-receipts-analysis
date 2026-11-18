@@ -1,6 +1,6 @@
 # Jumbo-receipts-analysis
 
-In this script I provided an example of a full workflow where: receipts are downloaded, read by an LLM, categorised by an LLM, simple summary statistics are calculated and finally, the summary is send through email.
+In this script I provided an example of a full workflow where: receipts are downloaded, read by an LLM, categorised by an LLM, simple summary statistics are calculated and finally, the summary is send by email.
 
 
 ## How to run
@@ -50,5 +50,12 @@ There is much room for improvement, additions and extensions to this script. Inc
 * Making sure you don't have to do a lot of setting up when using the script (noted at the start).
 * Adding an extra check before running the 'run_all' function that checks if everything is in order, reducing the instances of errors.
 * Calculating more and more interesting statistics on the receipts.
-* Using a better LLM such that less mistakes are made when reading/categorising the receipts (there are not that many, but still a handfull everytime. This can be mitigated by ever more specific prompts, but is probably easier with a larger, better model)
+* Using a better LLM such that less mistakes are made when reading/categorising the receipts (there are not that many, but still a handful everytime. This can be mitigated by ever more specific prompts, but is probably easier with a larger, better model)
+
+
+
+Example of the email that is send by the script:
+
+<img width="1460" height="495" alt="image" src="https://github.com/user-attachments/assets/39088608-fb92-4492-9648-10f92e6dc77b" />
+
 
