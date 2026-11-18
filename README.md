@@ -38,6 +38,7 @@ In this script I provided an example of a full workflow where: receipts are down
    await run_all(main_folder, number_of_receipts, category_list)
    ```
 
+By default it only displays the email (mail.Display() in the send_summary_email function), this can be changed such that it also sends the email (change to mail.Send()). But be careful with sending too many emails, your account might get blocked.
 
 
 There is much room for improvement, additions and extensions to this script. Including, but not limited to:
